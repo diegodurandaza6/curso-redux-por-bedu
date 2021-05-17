@@ -1,17 +1,17 @@
-import { TRAER_TODOS, CARGANDO, ERROR } from '../types/usuariosTypes'
+import { TRAER_TODOS, CARGANDO, ERROR } from '../types/publicacionesTypes'
 
 const INITIAL_STATE = {
-    usuarios: [],
+    publicaciones: [],
     cargando: false,
     error: ''
 };
 
-const usuariosReducer = (state = INITIAL_STATE, action) => {
+const publicacionesReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
         case TRAER_TODOS:
             return {
                 ...state, 
-                usuarios: action.payload,
+                publicaciones: action.payload,
                 cargando: false,
                 error: ''
             };
@@ -31,4 +31,4 @@ const usuariosReducer = (state = INITIAL_STATE, action) => {
     }
 }
 
-export default usuariosReducer;
+export default publicacionesReducer;

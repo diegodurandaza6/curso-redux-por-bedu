@@ -26,3 +26,11 @@
 body {
   margin: 0;
 }
+
+.center {
+  text-align: center;
+}
+
+.rojo {
+  color: red;
+}
