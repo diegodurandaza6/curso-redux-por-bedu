@@ -13,7 +13,7 @@
 }
 
 #menu {
-  background-color: #253A46;
+  background-color: #253a46;
   padding: 20px;
   font-size: 20px;
 }
@@ -42,4 +42,14 @@ body {
 
 li {
   margin: 15px 0 15px 0;
+}
+
+.contenedor_tareas {
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 70px;
+}
+
+.m_left {
+  margin-left: 20px;
 }
